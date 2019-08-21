@@ -40,7 +40,7 @@ Maven Repository
 
 You can find old versions of VerifAPS here:
 
-``` {.sourceCode .xml}
+```xml
 <repositories>
   <repository>
     <id>formal-iti-kit</id>

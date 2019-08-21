@@ -1,8 +1,7 @@
-# iec61131lang
+---
+---
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7d1913c80a714d76a31ce0b225f197e5)](https://www.codacy.com/app/wadoon/iec61131lang?utm_source=github.com&utm_medium=referral&utm_content=VerifAPS/iec61131lang&utm_campaign=badger)
-[![Build Status](https://travis-ci.org/VerifAPS/iec61131lang.svg?branch=master)](https://travis-ci.org/VerifAPS/iec61131lang)
-[![CircleCI](https://circleci.com/gh/VerifAPS/iec61131lang.svg?style=svg)](https://circleci.com/gh/VerifAPS/iec61131lang)
+# iec61131lang
 
 Parser and AST for StructuredText, Sequential Function Charts and Function Blocks.
 
@@ -16,7 +15,7 @@ Parser and AST for StructuredText, Sequential Function Charts and Function Block
 
 ## From the repository
 
-```
+```xml
 <project>
     ...
     <dependency>

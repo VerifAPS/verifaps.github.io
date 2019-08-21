@@ -1,21 +1,21 @@
-geteta — Generalized Test Tables [![Codacy Badge](https://api.codacy.com/project/badge/Grade/655e1ba61c2040eb8bccdb8f8a3799d1)](https://www.codacy.com/app/wadoon/geteta?utm_source=github.com&utm_medium=referral&utm_content=VerifAPS/geteta&utm_campaign=badger) [![CircleCI](https://circleci.com/gh/VerifAPS/geteta.svg?style=svg)](https://circleci.com/gh/VerifAPS/geteta)
-=================================================================================================================================================================================================================================================================================================================================================================================
+---
+title: geteta — Generalized Test Tables 
+---
 
-Generalized Test Tables ensures safety in automation software.
+# geteta — Generalized Test Tables 
 
+**Generalized Test Tables ensures safety in automation software.**
+
+{: .center}
 ![](../geteta-logo.svg)
 
--   Authors:
+Authors: Alexander Weigl <weigl@kit.edu>
+License: GPL v3
 
-    > -   Alexander Weigl <weigl@kit.edu>
+## Getting Started
 
--   License: GPL v3
 
-Getting Started
----------------
-
-Download
---------
+## Download
 
 These are jar files include all dependencies:
 

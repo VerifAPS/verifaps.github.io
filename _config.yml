@@ -1,1 +1,19 @@
-theme: jekyll-theme-minimal
+navbar-links:
+  Libraries:
+    - Overview: "/library"
+    - Base: "library/iec61131lang/"
+    - SymbEx: "library/iec-symbex/"
+    - PLCOpenXML: "library/iec-xml"
+    - SMV: "library/smv"
+  Applicatons:
+    - stvs: "stvs/"
+    - geteta: "geteta/"
+    - aps-rvt: "rvt/"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
