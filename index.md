@@ -1,10 +1,9 @@
 ---
 title: Verification for Automated Production Systems
+layout: default
 ---
 
 # Verification for Automated Production Systems
-
-![](verifaps-logo.svg)
 
 VerifAPS is a software project that consists out of multiple subprojects for the
 verification of automated production plants, i.e. programmable logic controller
@@ -38,9 +37,11 @@ You can find old versions of VerifAPS here:
 
 ```xml
 <repositories>
+  ...
   <repository>
-    <id>formal-iti-kit</id>
-    <url>https://formal.iti.kit.edu/maven2/</url>
+    <id>github</id>
+    <name>GitHub VERIFAPS Maven Packages</name>
+    <url>https://maven.pkg.github.com/verifaps/verifaps-lib</url>
   </repository>
 </repositories>
 ```

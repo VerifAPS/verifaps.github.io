@@ -1,0 +1,63 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+        <div style="text-align:center">
+        <img style="width:95%; background:white; padding:1em;border-radius:0.3em" src="/verifaps-logo.svg"/>
+        </div>
+        <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <!-- <p class="lead">{{ site.description }}</p> -->
+    </div>
+
+    
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Overview</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      <ul>
+          <li>Applicatons
+              <ul>
+                  <li><a href="/rvt/">aps-rvt</a></li>
+                  <li><a href="/geteta/">ttver</a></li>
+                  <li><a href="/geteta/">rttver</a></li>
+                  <li><a href="/geteta/">ttmonitor</a></li>
+                  <li><a href="/tt-utils/">tt utils</a></li>
+                  <li><a href="/ide/">ide</a></li>
+                  <li><a href="/stvs/">stvs</a></li>
+              </ul>
+          </li>
+          <li>Libraries Functions
+              <ul>
+                  <li><a href="/library/iec61131lang/">Parsing</a></li>
+                  <li><a href="/library/iec-xml">PLCOpenXML</a></li>
+                  <li> <a href="/library/iec-symbex/">Symbolic execution</a></li>
+                  <li><a href="/library/smv">SMV</a></li>
+                  <li><a href="/library/smt">SMT</a></li>
+              </ul>
+          </li>
+      </ul>
+
+      <!-- {% assign pages_list = site.pages %}
+           {% for node in pages_list %}
+           {% if node.title != null %}
+           {% if node.layout == "page" %}
+           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+           {% endif %}
+           {% endif %}
+           {% endfor %}
+      -->
+      <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
+      <a class="sidebar-nav-item" href="https://github.com/verifaps/verifaps-lib">GitHub project</a>
+      <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
+    </nav>
+
+    <!-- <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
+  </div>
+</div>
