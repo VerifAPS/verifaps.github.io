@@ -1,10 +1,10 @@
 ---
+title: STVS -- A GUI for Geteta
+nav: STVS
+layout: page
 ---
 
-STVS -- A GUI for Geteta
-========================
-
-![](logo.svg){.align-right}
+![](logo.svg)
 
 **stvs** provides a graphical user interface for the verification of
 [Structured Text](http://en.wikipedia.org/StructuredText) source code
@@ -81,5 +81,3 @@ Softwareentwicklung by these students:
 
 -   Mattias Ulbrich — <ulbrich@kit.edu>
 -   Alexander Weigl — <weigl@kit.edu>
-
-Feel free to use the issues tracker.

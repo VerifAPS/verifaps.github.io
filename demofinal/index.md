@@ -1,9 +1,12 @@
-Demonstration from the Final Workshop
-=====================================
+---
+title: Demonstration from the Final Workshop
+---
+
+# Demonstration from the Final&nbsp;Workshop
 
 To follow the demonstration, you should download the following archive,
-including a version of [stvs](../stvs/index.md),
-[geteta](../geteta/index.md), [rvt](../rvt/index.md). Also consider to
+including a version of [stvs](../stvs/),
+[geteta](../geteta/), [rvt](../rvt/). Also consider to
 download the model checker [nuXmv](http://nuxmv.fkb.eu), for running the
 verification.
 
@@ -62,7 +65,7 @@ code in ST (500 loc).
 The same can be done with the second revision of the code which is
 similar – with some local changes.
 
-``` {.sourceCode .sh}
+```sh
 #!/bin/sh
 
 dist/bin/rvt                          \
@@ -80,7 +83,7 @@ dist/bin/rvt                          \
 Our regression verification tool is a command line tool. This is the
 command to invoke it:
 
-``` {.sourceCode .sh}
+```sh
 $ cd demo/rvt-aps && ./run.sh
 ```
 

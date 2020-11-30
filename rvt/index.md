@@ -1,6 +1,8 @@
 ---
+title: (Modular) Regression Verification for APS
+nav: Regression Verification
+layout: page
 ---
 
-# aps-rvt -- Regression Verification for APS
 
 ![](../rvt-logo.svg)
